@@ -1,0 +1,1 @@
+console.log("Hello~Ben~"),console.log(5);
