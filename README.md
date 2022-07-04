@@ -8,3 +8,7 @@ npm 初始化 : npm init -y
 
 ## Webpack.config.js 環境建立
 Webpack Output 參考 : https://webpack.js.org/concepts/#output
+
+## Config at package.json
+開發模式 mode : "dev": "webpack --mode development"
+上線模式 mode : "deploy": "webpack --mode production"
