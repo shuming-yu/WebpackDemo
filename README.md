@@ -1,10 +1,11 @@
 # Webpack 基礎
 Webpack 官網 : https://webpack.js.org/
+關於 Webpack : https://askie.today/what-is-webpack/
+Webpack 是什麼 : https://tw.alphacamp.co/blog/webpack-introduction
 
 npm 初始化 : npm init -y
 
 安裝 Webpack 套件指令：npm install webpack webpack-cli --save-dev
-
 
 ## Webpack.config.js 環境建立
 Webpack Output 參考 : https://webpack.js.org/concepts/#output
@@ -32,3 +33,6 @@ Webpack-dev-server 參考 : https://webpack.js.org/api/webpack-dev-server
 - npm install --save-dev webpack-dev-server
 devServer 設定 : https://webpack.js.org/configuration/dev-server/#root
 
+## axios
+npm axios : https://www.npmjs.com/package/axios
+- npm install axios --save

@@ -4,7 +4,16 @@
 // npm run build 測試
 
 // import css from "./style.css"
-import sass from "./stylesass.scss"
+import sass from "./stylesass.scss";
+import axios from "axios";
+
+axios.get("https://hexschool.github.io/ajaxHomework/data.json")
+    .then((res)=>{
+        console.log(res.data);
+    })
+    // .then(function(res) {
+    //     console.log(res.data[0].name);
+    // })
 
 let a = 1;
 let b = 2;
@@ -16,3 +25,4 @@ function hello(a, b){
 }
 
 hello(2, 3);
+
