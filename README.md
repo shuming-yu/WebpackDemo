@@ -12,3 +12,8 @@ Webpack Output 參考 : https://webpack.js.org/concepts/#output
 ## Config at package.json
 開發模式 mode : "dev": "webpack --mode development"
 上線模式 mode : "deploy": "webpack --mode production"
+
+## 載入 CSS-loader 
+Webpack css-loader 參考 : https://webpack.js.org/loaders/css-loader/
+- npm install --save-dev css-loader
+- npm install --save-dev style-loader
