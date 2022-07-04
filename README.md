@@ -17,3 +17,7 @@ Webpack Output 參考 : https://webpack.js.org/concepts/#output
 Webpack css-loader 參考 : https://webpack.js.org/loaders/css-loader/
 - npm install --save-dev css-loader
 - npm install --save-dev style-loader
+
+## 載入 Sass-loader
+Webpack Sass-loader 參考 : https://webpack.js.org/loaders/sass-loader/#root
+- npm install sass-loader sass --save-dev

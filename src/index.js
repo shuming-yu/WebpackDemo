@@ -3,7 +3,8 @@
                                         // webpack 預設把 src 內的 index.js 輸出至 dist 資料夾
 // npm run build 測試
 
-import css from "./style.css"
+// import css from "./style.css"
+import sass from "./stylesass.scss"
 
 let a = 1;
 let b = 2;

@@ -12,11 +12,27 @@ module.exports = {
         // path.resolve 相對路徑轉絕對路徑, __dirname 當前資料夾路徑
         filename: 'bundle.js',
     },
-    module: {
+    // module: {   // css
+    //     rules: [
+    //         {
+    //             test: /\.css$/i,
+    //             use: ["style-loader", "css-loader"],
+    //         },
+    //     ],
+    // },
+
+    module: {   // sass
         rules: [
             {
-                test: /\.css$/i,
-                use: ["style-loader", "css-loader"],
+                test: /\.s[ac]ss$/i,
+                use: [
+                // Creates `style` nodes from JS strings
+                "style-loader",
+                // Translates CSS into CommonJS
+                "css-loader",
+                // Compiles Sass to CSS
+                "sass-loader",
+                ],
             },
         ],
     },
