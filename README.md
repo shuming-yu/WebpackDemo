@@ -3,7 +3,22 @@
 2. 關於 Webpack : https://askie.today/what-is-webpack/
 3. Webpack 是什麼 : https://tw.alphacamp.co/blog/webpack-introduction
 
-npm 初始化 : npm init -y
+## 初始環境建立
+1. NPM 官網 : https://www.npmjs.com/ -> 檢查 NPM 版本： npm -v
+2. Node.js 官網 : https://nodejs.org/en/ -> 檢查 Node.js 版本： node -v
+
+- 專案初始化：npm init
+1. package name : 預設(npm-demo)
+2. version : 預設(1.0.0)
+3. description : 描述
+4. entry point : 預設(index.js)
+5. test command : 測試code
+6. git repository : 使用git版控
+7. keywords : 關鍵字
+8. author : 作者
+9. license : 版本號(ISC)
+
+- 專案初始化，並提供預設值： npm init -y
 
 安裝 Webpack 套件指令：npm install webpack webpack-cli --save-dev
 
@@ -14,6 +29,8 @@ Webpack Output 參考 : https://webpack.js.org/concepts/#output
 - 開發模式 mode : "dev": "webpack --mode development"
 - 上線模式 mode : "deploy": "webpack --mode production"
 
+1. development(開發)依賴模組： npm install 模組名稱 --save-dev
+2. production (上線)依賴模組： npm install 模組名稱 --save
 ## 載入 CSS-loader 
 Webpack css-loader 參考 : https://webpack.js.org/loaders/css-loader/
 - npm install --save-dev css-loader
