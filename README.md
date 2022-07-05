@@ -1,7 +1,7 @@
 # Webpack 基礎
-Webpack 官網 : https://webpack.js.org/
-關於 Webpack : https://askie.today/what-is-webpack/
-Webpack 是什麼 : https://tw.alphacamp.co/blog/webpack-introduction
+1. Webpack 官網 : https://webpack.js.org/
+2. 關於 Webpack : https://askie.today/what-is-webpack/
+3. Webpack 是什麼 : https://tw.alphacamp.co/blog/webpack-introduction
 
 npm 初始化 : npm init -y
 
@@ -10,7 +10,7 @@ npm 初始化 : npm init -y
 ## Webpack.config.js 環境建立
 Webpack Output 參考 : https://webpack.js.org/concepts/#output
 
-## Config at package.json
+## Config at package.json -> "scripts"
 - 開發模式 mode : "dev": "webpack --mode development"
 - 上線模式 mode : "deploy": "webpack --mode production"
 
